@@ -1,0 +1,125 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  color-scheme: light;
+  color: #ffffff;
+  background: linear-gradient(to bottom, #0ba3ab, #000000);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.2em;
+  line-height: 1.1;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: color 0.3s ease-in-out;
+}
+
+button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #fff;
+  background-color: rgb(34, 154, 163);
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgb(232, 5, 35);
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Tambahkan style pada CSS Anda */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px; /* Tambahkan margin pada tabel */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  /* Tambahkan margin kiri dan kanan pada kolom */
+  margin: 5px;
+}
+
+/* Tambahkan style lainnya sesuai kebutuhan Anda */
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #0c64b1;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #cc0a0a;
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+  gap: 1em;
+  font-family: "Concert One", sans-serif;
+  color: white;
+  font-size: x-large;
+}
+
+.header img {
+  width: 10%;
+  border-radius: 100%;
+  border: 2px solid rgb(36, 197, 197);
+  box-shadow: rgb(255, 255, 255) 0px 3px 8px, rgba(255, 255, 255, 0.985) 0px 0px 12px; /* Tambahkan shadow */
+}
+
+.header p {
+  border-radius: 10px; /* Sesuaikan dengan nilai yang diinginkan */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
